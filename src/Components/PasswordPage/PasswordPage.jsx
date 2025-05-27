@@ -110,7 +110,7 @@ const PasswordPage = () => {
 
     return (
         <div className="password-container" style={{ width: '400px', margin: '2rem auto' }}>
-            {(passwordsMatch && isPasswordValid) && <Confetti width={width} height={height} />}
+            {(passwordsMatch && isPasswordValid && (strength === "100")) && <Confetti width={width} height={height} />}
             <h2>Military-Grade Password Checker</h2>
             <div className="input-group">
                 <div className="input-field">
