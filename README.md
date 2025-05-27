@@ -1,12 +1,28 @@
-# React + Vite
+🔐 Strong Password Checker (React + Vite)
+This is a simple yet powerful Strong Password Checker built using React and Vite. It allows users to input a password and get instant feedback on its strength based on common security rules. The tool evaluates password strength by checking for:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimum length requirements
 
-Currently, two official plugins are available:
+Use of uppercase and lowercase letters
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Inclusion of numbers and special characters
 
-## Expanding the ESLint configuration
+Overall entropy and security suggestions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+React
+
+Vite
+
+JavaScript (or TypeScript, if you're using it)
+
+CSS or Tailwind (mention your styling choice)
+
+🚀 Features
+Real-time password strength feedback
+
+Visual indicators (e.g., color-coded bars or messages)
+
+Lightweight and fast thanks to Vite
+
+Fully responsive design
